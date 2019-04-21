@@ -17,6 +17,7 @@
             %li= link_to category.name, tasks_path(category: category.name)
           %li= link_to "New Task", new_task_path, class: "navbar navbar-right navbar-link"
     .container
+      .col-md-8.col-md-offset-2
       = yield
 
 
